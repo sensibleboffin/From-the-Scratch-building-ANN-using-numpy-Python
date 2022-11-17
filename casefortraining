@@ -1,0 +1,13 @@
+Definitely not a trivial task.
+I broke down the task in these lines:
+Objective: To have minimal number of 'Edge cases'
+Let us call training cases with outputs of discrete probability values: discrete cases
+& training cases with probability outputs close to the decision boundary Edge cases. 
+Strategy 1: **Check:**  Dataset 1. equal number of discrete & edge cases
+1. Start with only a base model with specific set of input features and train with only Edge cases.
+2. If accuracy good: start adding discrete cases.
+3. If accuracy falls: remove discrete cases, include only edge cases & retrain. Run trained model on discrete cases.
+
+Hi Raymond
+The minimizing Testcases scenario for deep learning seems there is a potential for a good publication. I will give it a try from my side. let me know if you are interested to collaborate. 
+Regards
